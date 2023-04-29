@@ -2,7 +2,7 @@ group 'dev.steenbakker.mobile_scanner'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.7.21'
+    ext.kotlin_version = '1.7.22'
     repositories {
         google()
         mavenCentral()
@@ -10,7 +10,6 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.4'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.22"
     }
 }
 
